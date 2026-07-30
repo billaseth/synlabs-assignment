@@ -1,0 +1,18 @@
+[
+  {
+    "id": "case_1",
+    "input": "Explain what RAG is in simple terms.",
+    "system_prompt": "You are a helpful AI assistant. Keep explanations concise and clear.",
+    "model_output": "RAG stands for Retrieval-Augmented Generation. It combines searching relevant documents from a database with a language model to generate accurate answers based on factual context.",
+    "expected_output": "RAG is a technique that retrieves documents and uses an LLM to generate grounded answers.",
+    "criteria": ["Correctness", "Faithfulness", "Completeness"]
+  },
+  {
+    "id": "case_2",
+    "input": "How to contact Synlabs for internship submissions?",
+    "system_prompt": "Provide exact submission details.",
+    "model_output": "You can send your resume to HR directly on WhatsApp.",
+    "expected_output": "Share updated resume and assignment with suman.yadav@synlabs.io",
+    "criteria": ["Correctness", "Faithfulness"]
+  }
+]
